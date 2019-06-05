@@ -1,0 +1,21 @@
+{
+  "name": "discorddnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "chrome-remote-interface": "^0.27.1",
+    "discord.js": "11.4.2",
+    "firebase": "5.8.2",
+    "firebase-admin": "7.0.0",
+    "lodash": "^4.17.11",
+    "mongodb": "3.1.13",
+    "puppeteer": "^1.12.2"
+  },
+  "author": "Cameron Stansell and Andrew Parfitt",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+CREATE CHARACTER
+
+Primary Command:
+!character
+
+Secondary Command:
+create/c
+
+Arguments:
+URL
+
+Example:
+!char c URL
+
+Design Steps:
+DD1. Return if no URL given
+DD2. Get user document and determine if character already exists
+DD3. If character already exists, send message back to channel letting them know
+DD4. If character does not exist, create character
+DD5. If character created, ask user if they want to load the newly created character

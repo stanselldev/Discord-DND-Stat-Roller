@@ -1,0 +1,27 @@
+VIEW CHARACTER
+
+Imports:
+db
+
+Exports:
+viewCharacter
+
+Primary Command:
+!character
+
+Secondary Command:
+view/v/""
+
+Arguments:
+name [of character]
+""
+
+Example:
+!char view name
+!char view
+
+Design Steps:
+DD1. If no name given, get currently loaded character
+DD2. Filter characters for specific character
+DD3. If character does not exist, send message back to channel letting them know to create character
+DD4. If character exists, present character stat to user/channel

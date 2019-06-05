@@ -1,0 +1,27 @@
+LOAD CHARACTER
+
+Imports:
+db
+sendErrorMessage
+getCharacters
+
+Exports:
+loadCharacter
+
+Primary Command:
+!character
+
+Secondary Command:
+load/l
+
+Arguments:
+name [of character]
+
+Example:
+!char c name
+
+Design Steps:
+DD1. Return error message if no name given
+DD2. Get user document and determine if character exists
+DD3. If character does not exist, send message back to channel letting them know to create character
+DD4. If character exists, update loaded character and let user know
