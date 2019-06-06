@@ -8,7 +8,7 @@ function createAccount(msg) {
     db.collection("accounts").get().then((snapshot) => {
         snapshot.forEach((doc) => {
             if (doc.data().userId == userId) {
-                msg.channel.send(`\`\`\` Account already exists. Ya dumb fuck. \`\`\``)
+                msg.channel.send(`\`\`\` Account already exists. \`\`\``)
                 newAccount = false
             }
         });
